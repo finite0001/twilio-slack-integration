@@ -1,1 +1,19 @@
+{
+  "functions": {
+    "api/twilio-to-slack.js": {
+      "maxDuration": 30
+    },
+    "api/slack-to-twilio.js": {
+      "maxDuration": 30
+    }
+  }
+}
+```
 
+### **File 4: `.gitignore`**
+```
+node_modules/
+.env.local
+.vercel/
+*.log
+.DS_Store
